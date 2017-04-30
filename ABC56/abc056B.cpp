@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int W, a, b;
-    cin >> W >> a >> b; 
+    cin >> W >> a >> b;
 
     if(a < b){
         if(a+W > b){
@@ -13,7 +13,7 @@ int main(){
             cout << b - (a+W) << endl;
         }
         if(a+W == b){
-            cout << 0 << endl;   
+            cout << 0 << endl;
         }
     }
     if(a > b){
